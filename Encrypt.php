@@ -1,12 +1,13 @@
 <?php
 class Encrypt{
-	/*
-	* Basic encryption Class
-	* Version: 1.0
-	* Author: Andy Gup
-	*/
-    private $key;
-	private $iv;
+/*
+ * Basic encryption Class
+ * Version: 1.0
+ * Author: Andy Gup
+ */
+
+private $key;
+private $iv;
 	
     function __construct($encryption_key,$iv,$time_zone) {
         $this->key = $encryption_key;
